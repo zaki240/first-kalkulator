@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(247, 216, 117);
+}
+
+.container{
+  width: 500px;
+  background-color: azure;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.button{
+  padding: 10px;
+  flex-basis: 25%;
+}
+
+.displayNumber{
+  text-align: right;
+}
