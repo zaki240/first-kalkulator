@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
   background-color: rgb(247, 216, 117);
 }
 
 .container{
   width: 500px;
-  background-color: azure;
+  background-color: green;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin:  100px auto;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .flex-container{
@@ -14,8 +19,17 @@ body {
 .button{
   padding: 10px;
   flex-basis: 25%;
+  text-align: center;
+  border: 3px solid red;
+  background-color: blue;
 }
 
 .displayNumber{
   text-align: right;
+}
+.display{
+  height: 50px;
+  border: 3px solid grey;
+  background-color: aqua;
+  border-radius: 10px;
 }
