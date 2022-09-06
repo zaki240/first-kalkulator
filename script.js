@@ -87,3 +87,4 @@ function performCalculation() {
 
   calculator.displayNumber = result;
 }
+calculator.operator = null
