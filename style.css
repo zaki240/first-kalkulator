@@ -1,35 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-body {
-  background-color: rgb(247, 216, 117);
+
+*{
+  margin: 0px;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.container{
-  width: 500px;
-  background-color: green;
-  border: 3px solid black;
-  border-radius: 10px;
-  margin:  100px auto;
+body{
+  background-color: #6FEDD6;
+  height: 800px;
+}
+
+header{
+  height: 150px;
+  background-color: 
+  #319DA0;
+  font-size: 20px;
   font-family: 'PT Sans', sans-serif;
+  border-bottom: 20px solid #1CD6CE;
+  margin-bottom: 30px;
+  
+}
+header h1{
+  padding-top: 10px;
+  color: whitesmoke;
+  margin-left: 30px;
+
+}
+
+.judul{
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  margin-bottom: 10px;
+  margin-right: 300px;
+  margin-top: -35px;
+}
+.container{
+  width: 350px;
+  /* background-color: aliceblue; */
+  margin:  auto;
+  margin-right: 600px;
+
 }
 
 .flex-container{
   display: flex;
 }
+.display {
+  background-color: rgb(190, 178, 178);
+  border: 6px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+
+}
 
 .button{
-  padding: 10px;
-  flex-basis: 25%;
+  margin: 3px;
   text-align: center;
-  border: 3px solid red;
-  background-color: blue;
+  font-size: 20px;
+  padding: 20px;
+  flex-basis: 25%;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: #858180;
+}
+.button:hover{
+  color: whitesmoke;
+  padding: 20px;
+  flex-basis: 25%;
+  border: 3px solid #000000;
+  border-radius: 20px;
+  background-color: #858180;
 }
 
 .displayNumber{
   text-align: right;
-}
-.display{
-  height: 50px;
-  border: 3px solid grey;
-  background-color: aqua;
+  background-color: whitesmoke;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  margin: 5px;
+  margin-bottom: 10px;
+  border: 5px solid black;
   border-radius: 10px;
+  font-size: 28px;
 }
